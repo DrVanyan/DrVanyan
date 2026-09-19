@@ -702,6 +702,26 @@ header {
     text-align: center;
 }
 
+.footer__dev {
+    margin-top: 8px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 0.45);
+    text-align: center;
+}
+
+.footer__dev-link {
+    color: #61a8de;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s, opacity 0.2s;
+}
+
+.footer__dev-link:hover {
+    color: #4f97cf;
+    text-decoration: underline;
+}
+
 .footer__title {
     font-size: 20px;
     font-weight: 700;
