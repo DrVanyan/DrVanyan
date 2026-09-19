@@ -651,7 +651,6 @@ header {
     overflow: hidden;
 }
 
-/* строка внутри раскрытой вкладки: слева название, справа кнопка */
 .ankety__row {
     display: flex;
     align-items: center;
@@ -956,6 +955,10 @@ header {
         max-width: 100%;   /* на телефоне — на всю ширину */
         padding: 16px 22px;
         font-size: 13px;
+    }
+    .footer__dev {
+    margin-top: 6px;
+    font-size: 12px;
     }
 }
 
