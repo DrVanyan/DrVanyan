@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+html {
+    overscroll-behavior-y: none;
+}
+    
 body {
     background-color: #161d3f;
     color: #fff;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     overflow-x: hidden;
+    overscroll-behavior-y: none;
 }
 
 img {
